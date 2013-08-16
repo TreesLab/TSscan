@@ -9,12 +9,6 @@
 
 using namespace std;
 
-void Str2BoolMap::Add(const char *str)
-{
-	if( themap.find(str) == themap.end() )
-		themap[str] = true;
-}
-
 void Str2BoolMap::AddIntoMap(const char *filename, int col)
 {
 	FILE *fp;
@@ -29,8 +23,7 @@ void Str2BoolMap::AddIntoMap(const char *filename, int col)
 			break;
 		theRow.ColCopy(str, col);
 
-		if( themap.find(str) == themap.end() )
-			themap[str] = true;
+		themap[str] = true;
 	}	
 }
 

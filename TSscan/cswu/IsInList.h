@@ -8,7 +8,7 @@ class Str2BoolMap
 	map <string, bool> themap;
 
 public:
-	void Add(const char *str);
+
 	void AddIntoMap(const char *filename, int col = 0);
 	inline void AddIntoMap(char *filename)	{	AddIntoMap(filename, 0);	}
 	bool IsInMap(char *str);
