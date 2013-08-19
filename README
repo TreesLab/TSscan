@@ -9,9 +9,9 @@ Genome Browser) and http://sourceforge.net/apps/mediawiki/bfast/, respectively.
 
 
 All source codes can be compiled by g++. A makefile is also provided for the 
-make utility that provides automatically building executable programs. To use
-it, you can use the terminal and type "make" in the command line. The 
-executable programs is also available in our website with following URL:
+make utility that provides automatically building executable programs. Please
+use the terminal and type "make" in the command line. The executable programs 
+is also available in our website with following URL:
 
 Note: To build the executable programs, the system should support OpenMP.
 
