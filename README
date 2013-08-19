@@ -12,7 +12,7 @@ All source codes can be compiled by g++. A makefile is also provided for the
 make utility that provides automatically building executable programs. Please
 use the terminal and type "make" in the command line. The executable programs 
 is also available in our website with following URL:
-
+http://idv.sinica.edu.tw/trees/TSscan/TSscan.html
 Note: To build the executable programs, the system should support OpenMP.
 
 2. Preparation
