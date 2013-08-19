@@ -7,8 +7,12 @@ http://nebc.nerc.ac.uk/ for more information). The BLAT and BFAST aligners can b
 http://genome.ucsc.edu/ (the UCSC Genome Browser) and http://sourceforge.net/apps/mediawiki/bfast/, 
 respectively.
 
-All source codes can be compiled by g++.
-Note: The -fopenmp flag should be passed to the compiler for compiling TSscan1of4.cpp.
+
+All source codes can be compiled by g++. Makefile are also provided for the make utility. 
+To use it for automatically building executable programs, you can type make in the command line of 
+your terminal. The executable programs is also available in our website with following URL:
+
+Note: To build the executable programs, the system should support OpenMP.
 
 2. Preparation
 
